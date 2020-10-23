@@ -4,7 +4,7 @@
 # Packages Used: tidyverse, janitor
 #
 # Purpose: Epidemiologists can use R too! (example)
-
+########################################################################################
 library(tidyverse)
 
 covid <- read.table("data/boroughs-case-hosp-death.txt", header = T, sep = ",")

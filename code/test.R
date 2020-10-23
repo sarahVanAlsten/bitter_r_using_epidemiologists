@@ -22,5 +22,5 @@ covid %>%
   geom_line() + 
   theme_bw() + 
   labs(x = "Date", y = "Daily Case Count", color = "Borough") +
-  scale_color_discrete(labels = c("Brooklyn", "Bronx", "Manhattan", "Queens", "Staten Islad"))
+  scale_color_discrete(labels = c("Brooklyn", "Bronx", "Manhattan", "Queens", "Staten Island"))
 dev.off()
